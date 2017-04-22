@@ -1,8 +1,8 @@
 .PHONY: spec clean
 
 spec:
-	protoc -I=./spec/ --go_out=plugins=grpc:./entity/ ./spec/*.proto
+	protoc -I=./spec/ --go_out=plugins=grpc:./ ./spec/*.proto
 
 clean:
-	rm -rf ./entity/*
+	rm -rf ./*.go
 
