@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "response_user.proto";
+
+package entity;
+
+service GetUser {
+    rpc GetById (UserIdRequest) returns (UserResponse) {}
+    rpc GetByToken (UserTokenRequest) returns (UserResponse) {}
+}
+
+message UserIdRequest {
+    int32 id = 1;
+}
+
+message UserTokenRequest {
+    string token = 1;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package entity;
+
+service DeletePin {
+    rpc Execute (DeleteRequest) returns (PinDeleteResponse) {}
+}
+
+message DeleteRequest {
+    int32 id = 1;
+}
+
+message PinDeleteResponse {
+}

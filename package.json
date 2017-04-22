@@ -1,0 +1,22 @@
+{
+  "name": "spec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LikeAPinboard/spec.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LikeAPinboard/spec/issues"
+  },
+  "homepage": "https://github.com/LikeAPinboard/spec#readme",
+  "dependencies": {
+    "grpc": "^1.2.0"
+  }
+}

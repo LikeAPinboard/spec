@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "response_pin.proto";
+
+package entity;
+
+service UpdatePin {
+    rpc Execute (UpdateRequest) returns (PinResponse) {}
+}
+
+message UpdateRequest {
+    int32 id = 1;
+    int32 userId = 2;
+    string title = 3;
+    string url = 4;
+    int64 timestamp = 5;
+    string description = 6;
+    repeated string tags = 7;
+}
