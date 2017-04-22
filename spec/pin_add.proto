@@ -12,7 +12,8 @@ message AddRequest {
     string title = 1;
     int32 userId = 2;
     string url = 3;
-    int64 timestamp = 4;
-    string description = 5;
-    repeated string tags = 6;
+    string phrase = 4;
+    int64 timestamp = 5;
+    string description = 6;
+    repeated string tags = 7;
 }
