@@ -10,7 +10,7 @@ const load = proto => {
   if (!fs.existsSync(filePath)) {
     throw new Error(`${filename} is not exists in spec files.`);
   }
-  return grpc.load(filePath).entity;
+  return grpc.load(filePath).spec;
 }
 
 module.exports = {
