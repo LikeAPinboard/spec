@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package entity;
+package spec;
 
 service DeletePin {
     rpc Execute (DeleteRequest) returns (PinDeleteResponse) {}

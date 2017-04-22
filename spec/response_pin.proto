@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package entity;
+package spec;
 
 message PinResponse {
     int32 id = 1;
