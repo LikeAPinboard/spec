@@ -2,7 +2,7 @@ syntax = "proto3";
 
 import "response_user.proto";
 
-package spec;
+package service;
 
 service GetUser {
     rpc GetById (UserIdRequest) returns (UserResponse) {}

@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package spec;
+package service;
 
 message UserResponse {
     int32 id = 1;

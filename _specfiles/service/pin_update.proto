@@ -2,7 +2,7 @@ syntax = "proto3";
 
 import "response_pin.proto";
 
-package spec;
+package service;
 
 service UpdatePin {
     rpc Execute (UpdateRequest) returns (PinResponse) {}

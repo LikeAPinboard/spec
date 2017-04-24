@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package sync;
+
+message SyncRequest {
+    int32 id = 1;
+}
